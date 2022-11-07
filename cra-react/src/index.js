@@ -6,7 +6,10 @@ import App from './App';
 import Message from './Message';
 import Counter1 from './components/Lesson2/component1.jsx';
 import Counter2 from './components/Lesson2/component2.jsx';
-import Counter3 from './components/Lesson2/component3_class_state';
+import Counter3 from './components/Lesson2/component3_class_state.jsx';
+import Counter4 from './components/Lesson2/component4_input.jsx';
+import Counter5 from './components/Lesson2/component5_useEffect.jsx';
+import Example from './components/Lesson2/component6_props.jsx';
 
 
 const myName = 'Maxim';
@@ -15,13 +18,16 @@ const message = 'Hello, I am message from index.js!';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     <App name={myName} showRed={showRed} />
     <Message message={message} />
     <Counter1 />
     <Counter2 />
     <Counter3 />
-  </React.StrictMode>
+    <Counter4 />
+    <Counter5 />
+    <Example />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
 import './index.css';
 import App from './App';
 import Message from './Message';
-import reportWebVitals from './reportWebVitals';
+import Counter1 from './components/Lesson2/component1.jsx';
+import Counter2 from './components/Lesson2/component2.jsx';
+import Counter3 from './components/Lesson2/component3_class_state';
+
 
 const myName = 'Maxim';
 const showRed = true;
@@ -14,6 +18,9 @@ root.render(
   <React.StrictMode>
     <App name={myName} showRed={showRed} />
     <Message message={message} />
+    <Counter1 />
+    <Counter2 />
+    <Counter3 />
   </React.StrictMode>
 );
 

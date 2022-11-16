@@ -10,6 +10,7 @@ import Counter3 from './components/Lesson2/component3_class_state.jsx';
 import Counter4 from './components/Lesson2/component4_input.jsx';
 import Counter5 from './components/Lesson2/component5_useEffect.jsx';
 import Example from './components/Lesson2/component6_props.jsx';
+import ExampleUI from './components/Lesson3/MaterialUI.jsx';
 
 
 const myName = 'Maxim';
@@ -27,6 +28,7 @@ root.render(
     <Counter4 />
     <Counter5 />
     <Example />
+    <ExampleUI />
   </>
 );
 

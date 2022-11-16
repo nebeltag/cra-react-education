@@ -1,0 +1,7 @@
+.containerUI {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #dde1eb;
+  padding-bottom: 20px;
+}
